@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Online Quiz</title>
+  <link rel="stylesheet" href="quiz.css">
+</head>
+<body>
+  <img src="qz.png">
+
+  <div class="container">
+
+<h2>Online Quiz</h2>
+
+<p>1. JavaScript is a ?</p>
+<input type="radio" name="q1" value="a"> Language<br>
+<input type="radio" name="q1" value="b"> OS<br>
+
+<p>2. HTML is used for ?</p>
+<input type="radio" name="q2" value="a"> Styling<br>
+<input type="radio" name="q2" value="b"> Structure<br>
+
+<p>3. CSS is used for ?</p>
+<input type="radio" name="q3" value="a"> Styling<br>
+<input type="radio" name="q3" value="b"> Logic<br>
+
+<br>
+<button onclick="check()">Submit</button>
+
+<h3 id="score"></h3>
+</div>
+<script src="quiz.js"></script>
+</body>
+</html>
